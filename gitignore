@@ -1,0 +1,33 @@
+cat > .gitignore << 'EOF'
+# Binários
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+cardapio
+
+# Arquivos de teste
+*.test
+*.out
+
+# Dependências vendorizadas
+vendor/
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
